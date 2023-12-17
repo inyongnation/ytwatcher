@@ -12,7 +12,7 @@ firefox_options.add_argument("--autoplay-policy=no-user-gesture-required")  # Au
 firefox_options.add_argument("--loop")  # Looping
 
 # Path to geckodriver executable, download from: https://github.com/mozilla/geckodriver/releases
-geckodriver_path = "/path/to/geckodriver"
+geckodriver_path = "/data/data/com.termux/files/usr/bin/"
 
 # Set up Firefox driver with options
 driver = webdriver.Firefox(executable_path=geckodriver_path, options=firefox_options)
