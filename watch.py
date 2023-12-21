@@ -6,8 +6,8 @@ def open_youtube_video(video_id):
     try:
         youtube_url = f"https://www.youtube.com/watch?v=XvkEiIwt-UU&autoplay=1"
         webbrowser.open(youtube_url)
-        # Tunggu lebih lama sebelum mengatur volume (misalnya, 10 detik)
-        time.sleep(10)
+        # Tunggu sejenak agar video dimuat sebelum mengatur volume
+        time.sleep(5)
         # Nonaktifkan suara dengan mengatur volume menjadi 0
         pyautogui.press('volumemute')
     except webbrowser.Error:
