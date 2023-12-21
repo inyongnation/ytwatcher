@@ -4,7 +4,7 @@ import pyautogui
 
 def open_youtube_video(video_id):
     try:
-        youtube_url = f"https://www.youtube.com/watch?v=XvkEiIwt-UU&autoplay=1"
+        youtube_url = f"https://www.youtube.com/watch?v=XvkEiIwt-UU&autoplay=1&mute=1"
         webbrowser.open(youtube_url)
         # Tunggu sejenak agar video dimuat sebelum mengatur volume
         time.sleep(5)
