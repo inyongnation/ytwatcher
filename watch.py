@@ -4,7 +4,7 @@ import time
 def open_youtube_video(video_id):
     try:
         # Tambahkan parameter --mute untuk membuka video tanpa suara
-        youtube_url = f"https://www.youtube.com/watch?v=XvkEiIwt-UU&autoplay=1&mute=1"
+        youtube_url = f"https://www.youtube.com/watch?v=HLYPvtaCRcU&list=PLwjFKs8GCaKwZAZDHFciG0foxJPSZxFNk&index=1"
         webbrowser.open(youtube_url)
     except webbrowser.Error:
         print("Gagal membuka video YouTube. Pastikan koneksi internet Anda terhubung.")
